@@ -28,7 +28,7 @@
 
 # 📖 Enumerable <a name="about-project"></a>
 
-**Enumerable** is an app to decode morse code using Ruby.
+**Enumerable** this project helps us learn how to use a module inside of a class.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,7 +43,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Built methods**
+- **Built class**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +67,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```bash
-  git clone https://github.com/BenM4k/decode_morse
+  git clone https://github.com/mosidrum/enumerable
 ```
 
 ### Install
@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```bash
-  cd decode-morse
+  cd enumerable
   bundle install
 ```
 
@@ -102,12 +102,12 @@ Install this project with:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
+<!-- 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add UI**
+- **Add UI** -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- CONTRIBUTING -->
 
