@@ -2,26 +2,20 @@ module MyEnumerable
   def all?
     return true unless block_given?
 
-    each do |item|
-      return false unless yield(item)
-    end
+    each { |item| return false unless yield(item) }
     true
   end
 
   def any?
     return false unless block_given?
 
-    each do |item|
-      return true if yield(item)
-    end
+    each { |item| return true if yield(item) }
     false
   end
 
   def filter
     result = []
-    each do |item|
-      result << item if yield(item)
-    end
+    each { |item| result << item if yield(item) }
     result
   end
 end

@@ -1,5 +1,5 @@
 require_relative 'module'
- 
+
 class MyList
   include Enumerable
 
@@ -11,5 +11,3 @@ class MyList
     @list.each(&block)
   end
 end
-
-
